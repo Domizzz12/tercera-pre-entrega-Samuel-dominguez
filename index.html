@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Adivinanzas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Juego de Adivinanzas</h1>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Nombre de usuario" required>
+            <input type="password" id="password" placeholder="Contraseña" required>
+            <button type="submit">Iniciar sesión</button>
+        </form>
+        <form id="guessForm" style="display: none;">
+            <input type="number" id="userGuess" placeholder="Ingresa un número" required>
+            <button type="submit">Adivinar</button>
+        </form>
+        <p id="result"></p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
